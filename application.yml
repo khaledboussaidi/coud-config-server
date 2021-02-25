@@ -1,6 +1,8 @@
 eureka:
   client:
-    register-with-eruka: true
+    register-with-eureka: true
     fetch-registry: true
     service-url:
-      defualtZone: http://registry:8761/eureka
+      defaultZone: http://registry:8761/eureka/
+  instance:
+    hostname: registry
