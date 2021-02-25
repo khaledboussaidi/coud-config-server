@@ -1,15 +1,4 @@
 
-spring:
-  application:
-    name: CONFIG-SERVER
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/khaledboussaidi/coud-config-server.git
-server:
-  port: 9196
-
 eureka:
   client:
     register-with-eureka: true
