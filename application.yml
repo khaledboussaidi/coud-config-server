@@ -4,6 +4,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://hydatis-registryservice:8761/eureka/
+      defaultZone: http://hydatis-registryservice/eureka/
 
 
